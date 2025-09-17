@@ -105,7 +105,7 @@ def main():
                 print(show_all(contacts))
             else:
                 print("Invalid command.")
-        except ValueError as e:
+        except ValueError:
             print('Please choose a command')
 
 if __name__ == "__main__":
